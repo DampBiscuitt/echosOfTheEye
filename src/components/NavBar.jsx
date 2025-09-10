@@ -52,17 +52,15 @@ const NavBar = ({ menuOpen, setMenuOpen }) => {
                             About
                             {" "}
                         </a>
-                        <a href="#gallery" onClick={handleScroll('gallery')} className='text-gray-300 hover:text-white transition-colors'>
-                            {" "}
+                        <Link to="/gallery" className='text-gray-300 hover:text-white transition-colors'>
                             Gallery
-                            {" "}
-                        </a>
+                        </Link>
                         {/* <a href="#blog" onClick={handleScroll('blog')} className='text-gray-300 hover:text-white transition-colors'>
                             {" "}
                             Blog
                             {" "}
                         </a> */}
-                        <a href="/resume.pdf" target="_blank" rel="noopener noreferrer" className='text-gray-300 hover:text-white transition-colors'>
+                        <a href="portfolio/resume.pdf" target="_blank" rel="noopener noreferrer" className='text-gray-300 hover:text-white transition-colors'>
                             {" "}
                             Resume
                             {" "}

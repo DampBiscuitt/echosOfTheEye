@@ -5,7 +5,7 @@ export default function MarqueeBackground({
     speed = 15,      // seconds per loop
 }) {
     return (
-        <div className="absolute inset-0 w-full h-full overflow-hidden m-0 p-0">
+        <div className="absolute inset-0 w-full h-full overflow-visible m-0 p-0">
             <style>{`
                 @keyframes _marquee {
                     0% { transform: translateX(0%); }
@@ -21,9 +21,9 @@ export default function MarqueeBackground({
             `}</style>
             <div
                 aria-hidden
-                className={`pointer-events-none absolute ${top} z-0 w-full overflow-hidden left-0 right-0`}
+                className={`pointer-events-none absolute ${top} z-0 left-1/2 -translate-x-1/2 w-[140vw] overflow-visible`}
             >
-                <div className="flex">
+                <div className="flex w-[140vw] overflow-visible">
                     {[0, 1].map((i) => (
                         <h1
                             key={i}
