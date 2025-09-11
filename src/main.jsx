@@ -5,7 +5,7 @@ import './index.css'
 import App from './App.jsx'
 
 createRoot(document.getElementById('root')).render(
-  <BrowserRouter basename="/portfolio">
+  <BrowserRouter basename="/echosOfTheEye/">
     <StrictMode>
       <App />
     </StrictMode>
