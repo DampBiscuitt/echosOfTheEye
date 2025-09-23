@@ -19,7 +19,7 @@ function App() {
       {!isLoaded && <LoadingScreen onComplete={() => setIsLoaded(true)} />} {" "}
       <div
         className={`min-h-screen transition-opacity duration-700 ${isLoaded ? "opacity-100" : "opacity-0"
-          } bg-white text-gray-900 pt-6`}
+          } bg-white text-gray-900 overflow-x-hidden`}
       >
         <Routes>
           <Route
