@@ -60,7 +60,7 @@ const NavBar = ({ menuOpen, setMenuOpen }) => {
                             Blog
                             {" "}
                         </a> */}
-                        <a href="echosOfTheEye/resume.pdf" target="_blank" rel="noopener noreferrer" className='text-gray-300 hover:text-white transition-colors'>
+                        <a href="/echosOfTheEye/resume.pdf" target="_blank" rel="noopener noreferrer" className='text-gray-300 hover:text-white transition-colors'>
                             {" "}
                             Resume
                             {" "}
