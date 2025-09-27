@@ -1,10 +1,10 @@
 import React, { useState } from 'react'
 
-import img6 from '../assets/gallery/IMG_0658.JPG';
-import img2 from '../assets/gallery/IMG_0681.JPG';
-import img4 from '../assets/gallery/IMG_0712.JPG';
-import img5 from '../assets/gallery/IMG_0692.JPG';
-import img1 from '../assets/gallery/flower.JPG';
+import img6 from '../assets/gallery/1.JPG';
+import img2 from '../assets/gallery/2.JPG';
+import img4 from '../assets/gallery/3.JPG';
+import img5 from '../assets/gallery/4.JPG';
+import img1 from '../assets/gallery/5.JPG';
 
 const Viewer = () => {
 

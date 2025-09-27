@@ -1,6 +1,6 @@
 import React from 'react'
 
-import img1 from '../assets/gallery/IMG_0658.JPG';
+// import img1 from '../assets/gallery/IMG_0658.JPG';
 // Dynamically import all images from the gallery folder
 const images = Object.values(import.meta.glob('../assets/gallery/*.{JPEG,JPG,jpg,jpeg,png}', { eager: true, import: 'default' }));
 
